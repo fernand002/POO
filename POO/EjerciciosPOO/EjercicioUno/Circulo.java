@@ -45,12 +45,12 @@ public class Circulo {
 
 	// Metodos area y perimetro
 
-	public void CalcularPerimetro() {
+	public double CalcularPerimetro() {
 
 		double perimetro = 2 * pi * radio;
 
-		System.out.println("El area del circulo es : " + perimetro + "cm");
-
+		return perimetro;
+		
 	}
 
 	public void CalcularArea() {
